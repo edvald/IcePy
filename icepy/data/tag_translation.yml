@@ -1,0 +1,128 @@
+%YAML 1.1
+
+#This file is a part of the IcePy natural language processing toolkit.
+#IcePy is free software: you can redistribute it and/or modify
+#it under the terms of the GNU Lesser General Public License as published
+#by the Free Software Foundation, either version 3 of the License, or
+#(at your option) any later version.
+#
+#IcePy is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+#Lesser General Public License for more details.
+#
+#You should have received a copy of the GNU Lesser General Public License
+#along with IcePy. If not,  see <http://www.gnu.org/licenses/>.
+#
+#Contact information:
+#Jón Eðvald Vignisson, CTO, CLARA Ltd.
+#jon.edvald@clara.is
+
+## BÍN to IceNLP tagset translation map
+---
+n:
+  def: [2x]
+  f:
+    kk: 2k
+    kvk: 2v
+    hk: 2h
+  g:
+    NF: 4n
+    ÞF: 4o
+    ÞGF: 4þ
+    EF: 4e
+    ET: 3e
+    FT: 3f
+    gr: 5g
+  h:
+    ism: [6-,7m]
+    föð: [6-,7m]
+    móð: [6-,7m]
+    dyr: [6-,7s]
+    örn: [6-,7ö]
+    lönd: [6-,7ö]
+    göt: [6-,7ö]
+    fyr: [6-,7s]
+l:
+  g:
+    ESB: [5s,6e]
+    EVB: [5v,6e]
+    FSB: [5s,6f]
+    FVB: [5v,6f]
+    MST: [5v,6m]
+    KK: 2k
+    KVK: 2v
+    HK: 2h
+    ET: 3e
+    FT: 3f
+    NF: 4n
+    ÞF: 4o
+    ÞGF: 4þ
+    EF: 4e
+f:
+  g:
+    afturbfn: 2b
+    pfn: 2p
+    KK: 3k
+    KVK: 3v
+    HK: 3h
+    ET: 4e
+    FT: 4f
+    NF: 5n
+    ÞF: 5o
+    ÞGF: 5þ
+    EF: 5e
+t:
+  g:
+    KK: 3k
+    KVK: 3v
+    HK: 3h
+    ET: 4e
+    FT: 4f
+    NF: 5n
+    ÞF: 5o
+    ÞGF: 5þ
+    EF: 5e
+g:
+  g:
+    kk: 2k
+    kvk: 2v
+    hk: 2h
+    ET: 3e
+    FT: 3f
+    NF: 4n
+    ÞF: 4o
+    ÞGF: 4þ
+    EF: 4e
+s:
+  g:
+    GM: 3g
+    MM: 3m
+    ET: 5e
+    FT: 5f
+    1P: '41'
+    2P: '42'
+    3P: '43'
+    NT: 6n
+    ÞT: 6þ
+    FH: 2f
+    VH: 2v
+    NH: 2n
+    LH-NT: 2l
+    SAGNB: 2s
+    #this accounts for an issue in IceNLP/BÍN compatibility:
+    BH: [2b,3g,'42',6n]
+    LHÞT: [2þ,3m]
+    LHÞT-SB: [2þ,3g]
+    NF: 6n
+    ÞF: 6o
+    ÞGF: 6þ
+    EF: 6e
+    KK: 4k
+    KVK: 4v
+    HK: 4h
+a:
+  g:
+    MST: 3m
+    EST: 3e
+    

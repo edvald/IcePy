@@ -1,0 +1,6 @@
+*.pyc
+build/*
+.idea/*
+SHsnid.*
+*.cache
+dist/*

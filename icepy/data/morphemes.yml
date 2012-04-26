@@ -1,0 +1,160 @@
+%YAML 1.1
+
+#This file is a part of the IcePy natural language processing toolkit.
+#IcePy is free software: you can redistribute it and/or modify
+#it under the terms of the GNU Lesser General Public License as published
+#by the Free Software Foundation, either version 3 of the License, or
+#(at your option) any later version.
+#
+#IcePy is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+#Lesser General Public License for more details.
+#
+#You should have received a copy of the GNU Lesser General Public License
+#along with IcePy. If not,  see <http://www.gnu.org/licenses/>.
+#
+#Contact information:
+#Jón Eðvald Vignisson, CTO, CLARA Ltd.
+#jon.edvald@clara.is
+
+# A (rather incomplete) list of derivational and bound morphemes, used when
+# expanding unknown/compound words.
+#
+# morpheme tag definition
+# ------------
+# 1 - Word class  - m-morpheme
+# 2 - Subcategory - d-derivational, b-bound
+# 3 - Position    - p-prefixed, u-suffixed, e-either
+# 4 - Suggests    - n-noun, l-adjective, s-verb, o-nonspecific
+# 5... - Details  - (The rest of the tag assumes the form of the suggested word
+#                   class. If it is non-specific it is assumed not to have
+#                   inflections, as in the case of most prefixes.)
+
+---
+van: mbpo
+ó: mbpo
+ei: mbpo
+sam: mbpo
+legur: [
+  leg mdulvensf,
+  leg mdulhfnsf,
+  leg mdulhfosf,
+  lega mdulkeþse,
+  lega mdulkfþse,
+  lega mdulvfþse,
+  lega mdulhfþse,
+  lega mdulkfnsf,
+  lega mdulkeosf,
+  lega mdulvfnsf,
+  lega mdulvfosf,
+  lega mdulveesf,
+  lega mdulkense,
+  legi mdulkenve,
+  legs mdulveese,
+  legs mdulkfose,
+  legu mdulveose,
+  legu mdulkeove,
+  legu mdulkeþve,
+  legu mdulkeeve,
+  legu mdulvenve,
+  legu mdulhenve,
+  legu mdulheove,
+  legu mdulheþve,
+  legu mdulheeve,
+  legu mdulkeose,
+  legu mdulvfnse,
+  legu mdulvfose,
+  legu mdulvense,
+  legu mdulhfnse,
+  legu mdulhfose,
+  legu mdulkfesf,
+  legt mdulvfesf,
+  legt mdulhfesf,
+  legir mdulhenvm,
+  legan mdulheovm,
+  legar mdulheþvm,
+  legar mdulheevm,
+  legra mdulkeese,
+  legra mdulheese,
+  legra mdulveþsf,
+  legra mdulkenvm,
+  legra mdulkeovm,
+  legra mdulkeþvm,
+  legra mdulkeevm,
+  legri mdulkfnvm,
+  legri mdulkfovm,
+  legri mdulkfþvm,
+  legri mdulkfevm,
+  legri mdulvenvm,
+  legri mdulveovm,
+  legri mdulveþvm,
+  legri mdulveevm,
+  legri mdulvfnvm,
+  legri mdulvfovm,
+  legri mdulvfþvm,
+  legri mdulvfevm,
+  legri mdulhfnvm,
+  legri mdulhfovm,
+  legri mdulhfþvm,
+  legri mdulhfevm,
+  legri mdulhense,
+  legri mdulheose,
+  legri mdulveþse,
+  legri mdulkfnse,
+  legri mdulkfese,
+  legur mdulvfese,
+  legum mdulhfese,
+  legum mdulkfosf,
+  legum mdulveosf,
+  legum mdulkeovf,
+  legrar mdulkeþvf,
+  legust mdulkeevf,
+  legust mdulvenvf,
+  legust mdulhenvf,
+  legast mdulheovf,
+  legast mdulheþvf,
+  legasti mdulheevf,
+  legasta mdulheþse,
+  legasta mdulkfnve,
+  legasta mdulkfove,
+  legasta mdulkfþve,
+  legasta mdulkfeve,
+  legasta mdulveove,
+  legasta mdulveþve,
+  legasta mdulveeve,
+  legasta mdulvfnve,
+  legasta mdulvfove,
+  legasts mdulvfþve,
+  legasts mdulvfeve,
+  legustu mdulhfnve,
+  legustu mdulhfove,
+  legustu mdulhfþve,
+  legustu mdulhfeve,
+  legustu mdulkenvf,
+  legustu mdulkensf,
+  legustu mdulkeþsf,
+  legustu mdulkfþsf,
+  legustu mdulvfþsf,
+  legustu mdulhfþsf,
+  legustu mdulkeesf,
+  legustu mdulheesf,
+  legustu mdulheþsf,
+  legustu mdulkfnvf,
+  legustu mdulkfovf,
+  legustu mdulkfþvf,
+  legustum mdulkfevf,
+  legustum mdulveovf,
+  legustum mdulveþvf,
+  legustum mdulveevf,
+  legastur mdulvfnvf,
+  legastan mdulvfovf,
+  legastar mdulvfþvf,
+  legastar mdulvfevf,
+  legastri mdulhfnvf,
+  legastir mdulhfovf,
+  legastra mdulhfþvf,
+  legastra mdulhfevf,
+  legastra mdulhensf,
+  legastrar mdulheosf,
+]
